@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>jiyinyiyong</string>
+	<key>name</key>
+	<string>Cirru</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff</string>
+				<key>caret</key>
+				<string>#883333</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>token</string>
+			<key>scope</key>
+			<string>token</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e0e0e0</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>bracket</string>
+			<key>scope</key>
+			<string>bracket</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff</string>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>4e43a024-531c-4777-bf65-c5192e36458d</string>
+</dict>
+</plist>

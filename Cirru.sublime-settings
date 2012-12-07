@@ -1,0 +1,12 @@
+{
+  "extensions": ["cr", "cirru"],
+  "color_scheme": "Packages/Cirru/Color.tmTheme",
+  "font_face": "monospace",
+  "font_size": 10,
+  "indent_guide_options":
+  [
+    "draw_active"
+  ],
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}

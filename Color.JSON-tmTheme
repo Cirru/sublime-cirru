@@ -1,0 +1,31 @@
+
+{
+  "name": "Cirru",
+  "author": "jiyinyiyong",
+  "settings": [
+    {
+      "settings":
+      {
+        "background": "#ffffff",
+        "caret": "#883333",
+      }
+    },
+    {
+      "name": "token",
+      "scope": "token",
+      "settings": {
+        "background": "#e0e0e0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "bracket",
+      "scope": "bracket",
+      "settings": {
+        "background": "#ffffff",
+        "foreground": "#cccccc"
+      }
+    }
+  ],
+  "uuid": "4e43a024-531c-4777-bf65-c5192e36458d"
+}

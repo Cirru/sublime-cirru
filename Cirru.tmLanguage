@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>cirru</string>
+		<string>cr</string>
+	</array>
+	<key>name</key>
+	<string>Cirru</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>((\\\s)|[^\(\)\s])+</string>
+			<key>name</key>
+			<string>token.gos</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b[\d\.]+\b</string>
+			<key>name</key>
+			<string>constant.numeric.gos</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\(|\)</string>
+			<key>name</key>
+			<string>bracket.gos</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.cr</string>
+	<key>uuid</key>
+	<string>43471e40-4ccc-45e8-b003-29a2b4f7c191</string>
+</dict>
+</plist>

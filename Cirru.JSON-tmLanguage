@@ -1,0 +1,18 @@
+
+{ "name": "Cirru",
+  "scopeName": "source.cr",
+  "fileTypes": ["cirru", "cr"],
+  "patterns": [
+    {
+      "name": "token.gos",
+      "match": "((\\\\\\s)|[^\\(\\)\\s])+"
+    },{
+      "name": "constant.numeric.gos",
+      "match": "\\b[\\d\\.]+\\b"
+    },{
+      "name": "bracket.gos",
+      "match": "\\(|\\)"
+    }
+  ],
+  "uuid": "43471e40-4ccc-45e8-b003-29a2b4f7c191"
+}
