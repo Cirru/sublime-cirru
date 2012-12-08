@@ -12,8 +12,8 @@ git clone git@github.com:jiyinyiyong/Cirru.subl.git Cirru
 
 ### Demo
 
-Here's what you will see if you has "Soda" Theme for its Chrome. 
-My package only make the textarea part suitable for Cirru.  
+Here's what you will see if you has "Soda" Theme for its Chrome.  
+My package only ensures the textarea part suitable for Cirru.  
 
 ![Demo][demo]
 
