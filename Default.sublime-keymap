@@ -1,0 +1,8 @@
+[
+  { "keys": ["tab"], "command": "insert", "args": {"characters": "\\ "},
+  "context": [
+    { "key": "setting.inset_raw_space", "operator": "equal", "operand": true},
+    { "key": "auto_complete_visible", "operator": "equal", "operand": false }
+  ]
+  }
+]
