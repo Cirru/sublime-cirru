@@ -12,10 +12,27 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>bracket.gos</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>head.gos</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>((\\\s)|[^\(\)\s])+</string>
+			<string>(\(|^\s*)((\\.|[^\(\)\\\s])+)</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\\.|[^\(\)\\\s])+</string>
 			<key>name</key>
-			<string>token.gos</string>
+			<string>token</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -28,6 +45,18 @@
 			<string>\(|\)</string>
 			<key>name</key>
 			<string>bracket.gos</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>lineend.gos</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>( +)$</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
