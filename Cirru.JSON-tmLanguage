@@ -4,25 +4,25 @@
   "fileTypes": ["cirru", "cr"],
   "patterns": [
     {
-      "match": "(\\(|^\\s*)((\\\\.|[^\\(\\)\\\\\\s])+)",
-      "captures": {
-        "1": { "name": "bracket.gos" },
-        "2": { "name": "head.gos" }
-      }
-    },{
-      "name": "token",
-      "match": "(\\\\.|[^\\(\\)\\\\\\s])+"
-    },{
-      "name": "constant.numeric.gos",
-      "match": "\\b[\\d\\.]+\\b"
-    },{
-      "name": "bracket.gos",
-      "match": "\\(|\\)"
-    },{
-      "match": "( +)$",
-      "captures": {
-        "1": { "name": "lineend.gos" }
-      }
+      "match": "\\b\\d+\\b",
+      "name": "constant.numeric.source.she",
+      "comment": "number"
+    }, {
+      "match": "^\\s*[^\\(\\)\\s]+",
+      "name": "support.function.source.she",
+      "comment": "function at line start"
+    }, {
+      "match": "(?<=\\()[^\\(\\)\\s]+",
+      "name": "support.function.source.she",
+      "comment": "function in brackets"
+    }, {
+      "match": "\\(?comment.*$",
+      "name": "comment.line.character.source.she",
+      "comment": "line comment"
+    }, {
+      "match": "[\\)\\(]",
+      "name": "constant.language.source.she",
+      "comment": "brackets"
     }
   ],
   "uuid": "43471e40-4ccc-45e8-b003-29a2b4f7c191"

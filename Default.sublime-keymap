@@ -1,8 +1,10 @@
 [
-  { "keys": ["tab"], "command": "insert", "args": {"characters": "\\ "},
-  "context": [
-    { "key": "setting.inset_raw_space", "operator": "equal", "operand": true},
-    { "key": "auto_complete_visible", "operator": "equal", "operand": false }
-  ]
+  { "keys": [" "], "command": "insert_snippet", "args": {"contents": "  "}, "context":
+    [
+      { "key": "setting.space_auto_indent", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^\\s*$", "match_all": true },
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "^\\s*$", "match_all": true }
+    ]
   }
 ]
