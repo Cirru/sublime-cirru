@@ -13,7 +13,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\"([^"]|(\"))*\"</string>
+			<string>\"([^"]|(\\"))*\"</string>
 			<key>name</key>
 			<string>string.quoted.double.cirru</string>
 		</dict>
@@ -33,31 +33,44 @@
 			<key>match</key>
 			<string>(?=^)\s*[a-zA-Z]\w*</string>
 			<key>name</key>
-			<string>entity.name.funcition.cirru</string>
+			<string>entity.name.function.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?&lt;=\()[a-zA-Z]\w*</string>
 			<key>name</key>
-			<string>entity.name.funcition.cirru</string>
+			<string>entity.name.function.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?=\$\s+)[a-zA-Z]\w*</string>
 			<key>name</key>
-			<string>entity.name.funcition.cirru</string>
+			<string>entity.name.function.cirru</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.dollar.cirru</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.cirru</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\s+(\$)\s+([a-zA-Z]\w*)</string>
+			<key>name</key>
+			<string>entity.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(?!=($\s+))[a-zA-Z]\w*</string>
 			<key>name</key>
 			<string>variable.parameter.cirru</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\s\$\s</string>
-			<key>name</key>
-			<string>entity.dollar.cirru</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

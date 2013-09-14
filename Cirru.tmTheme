@@ -71,9 +71,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>entity.name.funcition.cirru</string>
+			<string>entity.name.function.cirru</string>
 			<key>scope</key>
-			<string>entity.name.funcition.cirru</string>
+			<string>entity.name.function.cirru</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

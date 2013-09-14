@@ -1,0 +1,33 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: Cirru
+scopeName: source.cr
+fileTypes: [cirru, cr]
+uuid: 43471e40-4ccc-45e8-b003-29a2b4f7c191
+
+patterns:
+- name: string.quoted.double.cirru
+  match: \"([^"]|(\\"))*\"
+
+- name: constant.numeric.cirru
+  match: \b\d+\b
+
+- name: entity.bracket.cirru
+  match: '[\)\(]'
+
+- name: entity.name.function.cirru
+  match: (?=^)\s*[a-zA-Z]\w*
+
+- name: entity.name.function.cirru
+  match: (?<=\()[a-zA-Z]\w*
+
+- name: entity.name.function.cirru
+  match: (?=\$\s+)[a-zA-Z]\w*
+
+- name: entity.cirru
+  match: \s+(\$)\s+([a-zA-Z]\w*)
+  captures:
+    '1': {name: entity.dollar.cirru}
+    '2': {name: entity.name.function.cirru}
+
+- name: variable.parameter.cirru
+  match: (?!=($\s+))[a-zA-Z]\w*

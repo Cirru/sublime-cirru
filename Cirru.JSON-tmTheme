@@ -40,8 +40,8 @@
       }
     },
     {
-      "scope": "entity.name.funcition.cirru",
-      "name": "entity.name.funcition.cirru",
+      "scope": "entity.name.function.cirru",
+      "name": "entity.name.function.cirru",
       "settings": {
         "foreground": "#ff5555"
       }
