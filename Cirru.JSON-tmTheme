@@ -1,0 +1,59 @@
+{
+  "uuid": "4e43a024-531c-4777-bf65-c5192e36458d",
+  "settings": [
+    {
+      "settings": {
+        "background": "#111111",
+        "foreground": "#ffffff",
+        "caret": "#aaaaff",
+        "selection": "#444477",
+        "lineHighlight": "#222222"
+      }
+    },
+    {
+      "scope": "string.quoted.double.cirru",
+      "name": "string.quoted.double.cirru",
+      "settings": {
+        "foreground": "#bbdd77",
+        "background": "#313141"
+      }
+    },
+    {
+      "scope": "entity.dollar.cirru",
+      "name": "entity.dollar.cirru",
+      "settings": {
+        "foreground": "#4444aa"
+      }
+    },
+    {
+      "scope": "entity.bracket.cirru",
+      "name": "entity.bracket.cirru",
+      "settings": {
+        "foreground": "#4444cc"
+      }
+    },
+    {
+      "scope": "variable.parameter.cirru",
+      "name": "variable.parameter.cirru",
+      "settings": {
+        "foreground": "#eab5c5"
+      }
+    },
+    {
+      "scope": "entity.name.funcition.cirru",
+      "name": "entity.name.funcition.cirru",
+      "settings": {
+        "foreground": "#ff5555"
+      }
+    },
+    {
+      "scope": "constant.numeric.cirru",
+      "name": "constant.numeric.cirru",
+      "settings": {
+        "foreground": "#8888ff"
+      }
+    }
+  ],
+  "name": "Cirru",
+  "author": "jiyinyiyong"
+}

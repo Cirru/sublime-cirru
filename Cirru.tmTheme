@@ -12,80 +12,83 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ddddff</string>
+				<string>#111111</string>
 				<key>caret</key>
-				<string>#883333</string>
-				<key>selection</key>
-				<string>#ccccff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>head</string>
-			<key>scope</key>
-			<string>head</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#f8f8ff</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#333377</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>token</string>
-			<key>scope</key>
-			<string>token</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#f8f8ff</string>
-				<key>foreground</key>
-				<string>#333377</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>bracket</string>
-			<key>scope</key>
-			<string>bracket</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#ddddff</string>
-				<key>fontStyle</key>
-				<string>bold</string>
+				<string>#aaaaff</string>
 				<key>foreground</key>
 				<string>#ffffff</string>
+				<key>lineHighlight</key>
+				<string>#222222</string>
+				<key>selection</key>
+				<string>#444477</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>escape</string>
+			<string>string.quoted.double.cirru</string>
 			<key>scope</key>
-			<string>escape</string>
+			<string>string.quoted.double.cirru</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#f8f8ff</string>
-				<key>fontStyle</key>
-				<string>bold</string>
+				<string>#313141</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#bbdd77</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>lineend</string>
+			<string>entity.dollar.cirru</string>
 			<key>scope</key>
-			<string>lineend</string>
+			<string>entity.dollar.cirru</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#ff8888</string>
+				<key>foreground</key>
+				<string>#4444aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity.bracket.cirru</string>
+			<key>scope</key>
+			<string>entity.bracket.cirru</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4444cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>variable.parameter.cirru</string>
+			<key>scope</key>
+			<string>variable.parameter.cirru</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#eab5c5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity.name.funcition.cirru</string>
+			<key>scope</key>
+			<string>entity.name.funcition.cirru</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff5555</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>constant.numeric.cirru</string>
+			<key>scope</key>
+			<string>constant.numeric.cirru</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8888ff</string>
 			</dict>
 		</dict>
 	</array>
