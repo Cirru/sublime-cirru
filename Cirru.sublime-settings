@@ -9,6 +9,5 @@
   "highlight_line": false,
   "indent_subsequent_lines": true,
   "draw_white_space": "selection",
-  "auto_match_enabled": false,
   "inset_raw_space": true
 }
