@@ -31,19 +31,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?=^)\s*[a-zA-Z]\w*</string>
+			<string>(?=^)\s*[a-zA-Z]\S*</string>
 			<key>name</key>
 			<string>entity.name.function.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;=\()[a-zA-Z]\w*</string>
+			<string>(?&lt;=\()[a-zA-Z]\S*</string>
 			<key>name</key>
 			<string>entity.name.function.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?=\$\s+)[a-zA-Z]\w*</string>
+			<string>(?=\$\s+)[a-zA-Z]\S*</string>
 			<key>name</key>
 			<string>entity.name.function.cirru</string>
 		</dict>
@@ -62,13 +62,13 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\s+(\$)\s+([a-zA-Z]\w*)</string>
+			<string>\s+(\$)\s+([a-zA-Z]\S*)</string>
 			<key>name</key>
 			<string>entity.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?!=($\s+))[a-zA-Z]\w*</string>
+			<string>(?!=($\s+))[a-zA-Z]\S*</string>
 			<key>name</key>
 			<string>variable.parameter.cirru</string>
 		</dict>

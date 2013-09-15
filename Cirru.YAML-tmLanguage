@@ -15,19 +15,19 @@ patterns:
   match: '[\)\(]'
 
 - name: entity.name.function.cirru
-  match: (?=^)\s*[a-zA-Z]\w*
+  match: (?=^)\s*[a-zA-Z]\S*
 
 - name: entity.name.function.cirru
-  match: (?<=\()[a-zA-Z]\w*
+  match: (?<=\()[a-zA-Z]\S*
 
 - name: entity.name.function.cirru
-  match: (?=\$\s+)[a-zA-Z]\w*
+  match: (?=\$\s+)[a-zA-Z]\S*
 
 - name: entity.cirru
-  match: \s+(\$)\s+([a-zA-Z]\w*)
+  match: \s+(\$)\s+([a-zA-Z]\S*)
   captures:
     '1': {name: entity.dollar.cirru}
     '2': {name: entity.name.function.cirru}
 
 - name: variable.parameter.cirru
-  match: (?!=($\s+))[a-zA-Z]\w*
+  match: (?!=($\s+))[a-zA-Z]\S*
