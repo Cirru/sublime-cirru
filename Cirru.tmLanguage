@@ -25,25 +25,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[\)\(]</string>
-			<key>name</key>
-			<string>entity.bracket.cirru</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?=^)\s*[a-zA-Z]\S*</string>
+			<string>(?=^)\s*[^\(\)\s\$][^\(\)\s]*</string>
 			<key>name</key>
 			<string>entity.name.function.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;=\()[a-zA-Z]\S*</string>
+			<string>(?&lt;=\()[^\(\)\s\$][^\(\)\s]*</string>
 			<key>name</key>
 			<string>entity.name.function.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?=\$\s+)[a-zA-Z]\S*</string>
+			<string>(?=\$\s+)[^\(\)\s\$][^\(\)\s]*</string>
 			<key>name</key>
 			<string>entity.name.function.cirru</string>
 		</dict>
@@ -62,13 +56,19 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\s+(\$)\s+([a-zA-Z]\S*)</string>
+			<string>\s+(\$)\s+([^\(\)\s\$][^\(\)\s]*)</string>
 			<key>name</key>
 			<string>entity.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?!=($\s+))[a-zA-Z]\S*</string>
+			<string>[\)\(]</string>
+			<key>name</key>
+			<string>entity.bracket.cirru</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?!=($\s+))[^\(\)\s\$][^\(\)\s]*</string>
 			<key>name</key>
 			<string>variable.parameter.cirru</string>
 		</dict>

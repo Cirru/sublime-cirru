@@ -11,23 +11,23 @@ patterns:
 - name: constant.numeric.cirru
   match: \b\d+\b
 
-- name: entity.bracket.cirru
-  match: '[\)\(]'
+- name: entity.name.function.cirru
+  match: (?=^)\s*[^\(\)\s\$][^\(\)\s]*
 
 - name: entity.name.function.cirru
-  match: (?=^)\s*[a-zA-Z]\S*
+  match: (?<=\()[^\(\)\s\$][^\(\)\s]*
 
 - name: entity.name.function.cirru
-  match: (?<=\()[a-zA-Z]\S*
-
-- name: entity.name.function.cirru
-  match: (?=\$\s+)[a-zA-Z]\S*
+  match: (?=\$\s+)[^\(\)\s\$][^\(\)\s]*
 
 - name: entity.cirru
-  match: \s+(\$)\s+([a-zA-Z]\S*)
+  match: \s+(\$)\s+([^\(\)\s\$][^\(\)\s]*)
   captures:
     '1': {name: entity.dollar.cirru}
     '2': {name: entity.name.function.cirru}
 
+- name: entity.bracket.cirru
+  match: '[\)\(]'
+
 - name: variable.parameter.cirru
-  match: (?!=($\s+))[a-zA-Z]\S*
+  match: (?!=($\s+))[^\(\)\s\$][^\(\)\s]*

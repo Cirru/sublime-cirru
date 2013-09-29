@@ -36,14 +36,14 @@
       "scope": "variable.parameter.cirru",
       "name": "variable.parameter.cirru",
       "settings": {
-        "foreground": "#eab5c5"
+        "foreground": "#ca95a5"
       }
     },
     {
       "scope": "entity.name.function.cirru",
       "name": "entity.name.function.cirru",
       "settings": {
-        "foreground": "#ff5555"
+        "foreground": "#ee88ee"
       }
     },
     {
