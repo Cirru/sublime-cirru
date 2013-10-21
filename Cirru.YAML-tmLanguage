@@ -21,10 +21,10 @@ patterns:
   match: (?=\$\s+)[^\(\)\s\$][^\(\)\s]*
 
 - name: entity.cirru
-  match: \s+(\$)\s+([^\(\)\s\$][^\(\)\s]*)
+  match: \s+((\$\s+)+)([^\(\)\s\$][^\(\)\s]*)
   captures:
     '1': {name: entity.dollar.cirru}
-    '2': {name: entity.name.function.cirru}
+    '3': {name: entity.name.function.cirru}
 
 - name: entity.bracket.cirru
   match: '[\)\(]'
