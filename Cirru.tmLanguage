@@ -42,6 +42,12 @@
 			<string>entity.name.function.cirru</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>\s\$$</string>
+			<key>name</key>
+			<string>entity.dollar.cirru</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>

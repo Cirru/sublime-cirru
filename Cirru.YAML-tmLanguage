@@ -20,6 +20,9 @@ patterns:
 - name: entity.name.function.cirru
   match: (?=\$\s+)[^\(\)\s\$][^\(\)\s]*
 
+- name: entity.dollar.cirru
+  match: \s\$$
+
 - name: entity.cirru
   match: \s+((\$\s+)+)([^\(\)\s\$][^\(\)\s]*)
   captures:
