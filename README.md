@@ -17,8 +17,8 @@ Or by cloning the repo to your Packages directory if you are familiar.
 
 ### Related
 
-Early ideas on Cirru:
-http://jiyinyiyong.github.com/article/04-cirru-project/page/index.html
+More about Cirru:
+https://github.com/jiyinyiyong/cirru-parser/wiki/About-Cirru
 
 ### License
 
