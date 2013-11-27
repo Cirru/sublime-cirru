@@ -5,21 +5,11 @@ This refers to a simplified rewrite version of Cirru.
 
 ### Usage
 
-Install this by cloning the repo to your Packages directory:  
+You may install Cirru directly from Package Control, by searching `Cirru`.
 
-Linux:
+See it here: https://sublime.wbond.net/packages/Cirru
 
-```
-cd ~/.config/sublime-text-dev/Packages/ # your path could be different
-git clone https://github.com/jiyinyiyong/Sublime-Cirru.git Cirru
-```
-
-OS X:
-
-```bash
-cd "/Users/chen/Library/Application Support/Sublime Text 3/Packages"
-git clone https://github.com/jiyinyiyong/Sublime-Cirru.git Cirru
-```
+Or by cloning the repo to your Packages directory if you are familiar.
 
 ### Screenshot
 

@@ -30,8 +30,6 @@
 			<string>string.quoted.double.cirru</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#313141</string>
 				<key>foreground</key>
 				<string>#bbdd77</string>
 			</dict>
@@ -66,7 +64,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ca95a5</string>
+				<string>#8a7585</string>
 			</dict>
 		</dict>
 		<dict>
