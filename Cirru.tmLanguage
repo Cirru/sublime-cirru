@@ -12,10 +12,21 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>match</key>
-			<string>\"([^"\n\r\\]|(\\.))*\"</string>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
 			<key>name</key>
 			<string>string.quoted.double.cirru</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.cirru</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -80,7 +91,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.cr</string>
+	<string>source.cirru</string>
 	<key>uuid</key>
 	<string>43471e40-4ccc-45e8-b003-29a2b4f7c191</string>
 </dict>
