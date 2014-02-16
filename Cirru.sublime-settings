@@ -1,7 +1,6 @@
 {
   "extensions": ["cr", "cirru"],
   "tab_size": 2,
-  "color_scheme": "Packages/Cirru/Cirru.tmTheme",
   "translate_tabs_to_spaces": true,
   "space_auto_indent": true,
   "use_tab_stops": true,

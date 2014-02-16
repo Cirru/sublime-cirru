@@ -38,7 +38,7 @@
 			<key>match</key>
 			<string>(?=^)\s*\,</string>
 			<key>name</key>
-			<string>entity.dollar.cirru</string>
+			<string>keyword.operator.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -62,7 +62,7 @@
 			<key>match</key>
 			<string>\s\$\s*$</string>
 			<key>name</key>
-			<string>entity.dollar.cirru</string>
+			<string>keyword.operator.cirru</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -70,7 +70,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.dollar.cirru</string>
+					<string>keyword.operator.cirru</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -87,7 +87,7 @@
 			<key>match</key>
 			<string>[\)\(]</string>
 			<key>name</key>
-			<string>entity.bracket.cirru</string>
+			<string>keyword.operator.cirru</string>
 		</dict>
 		<dict>
 			<key>match</key>
