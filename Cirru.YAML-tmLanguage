@@ -14,7 +14,10 @@ patterns:
     name: constant.character.escape.cirru
 
 - name: constant.numeric.cirru
-  match: \b\d+\b
+  match: \b[\d\.]+\b
+
+- name: entity.dollar.cirru
+  match: (?=^)\s*\,
 
 - name: entity.name.function.cirru
   match: (?=^)\s*[^\(\)\s\$][^\(\)\s]*
