@@ -19,13 +19,13 @@ patterns:
 - name: keyword.operator.cirru
   match: (?=^)\s*\,
 
-- name: entity.name.function.cirru
+- name: entity.function.cirru
   match: (?=^)\s*[^\(\)\s\$][^\(\)\s]*
 
-- name: entity.name.function.cirru
+- name: entity.function.cirru
   match: (?<=\()[^\(\)\s\$][^\(\)\s]*
 
-- name: entity.name.function.cirru
+- name: entity.function.cirru
   match: (?=\$\s+)[^\(\)\s\$][^\(\)\s]*
 
 - name: keyword.operator.cirru
@@ -35,7 +35,7 @@ patterns:
   match: \s+((\$\s+)+)([^\(\)\s\$][^\(\)\s]*)
   captures:
     '1': {name: keyword.operator.cirru}
-    '3': {name: entity.name.function.cirru}
+    '3': {name: entity.function.cirru}
 
 - name: keyword.operator.cirru
   match: '[\)\(]'
