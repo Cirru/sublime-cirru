@@ -14,7 +14,7 @@ patterns:
     name: constant.character.escape.cirru
 
 - name: constant.numeric.cirru
-  match: \b\d\S*\b
+  match: -?\b\d\S*\b
 
 - name: keyword.operator.cirru
   match: (?=^)\s*\,
