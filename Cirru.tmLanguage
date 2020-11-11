@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b\d\S*\b</string>
+			<string>\b-?\d\S*\b</string>
 			<key>name</key>
 			<string>constant.numeric.cirru</string>
 		</dict>
