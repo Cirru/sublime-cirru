@@ -1,0 +1,3 @@
+[
+  { "keys": ["'"], "command": "insert_snippet", "args": {"contents": "'"}}
+]
