@@ -42,27 +42,27 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?=^)\s*[^\(\)\s\$][^\(\)\s]*</string>
-			<key>name</key>
-			<string>support.function.cirru</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?&lt;=\()[^\(\)\s\$][^\(\)\s]*</string>
-			<key>name</key>
-			<string>support.function.cirru</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?=\$\s+)[^\(\)\s\$][^\(\)\s]*</string>
-			<key>name</key>
-			<string>support.function.cirru</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>\s\$\s*$</string>
 			<key>name</key>
 			<string>keyword.operator.cirru</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?=^)\s*[^\(\)\s][^\(\)\s]*</string>
+			<key>name</key>
+			<string>support.function.cirru</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;=\()[^\(\)\s][^\(\)\s]*</string>
+			<key>name</key>
+			<string>support.function.cirru</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?=\$\s+)[^\(\)\s][^\(\)\s]*</string>
+			<key>name</key>
+			<string>support.function.cirru</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -79,7 +79,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\s+((\$\s+)+)([^\(\)\s\$][^\(\)\s]*)</string>
+			<string>\s+((\$\s+)+)([^\(\)\s][^\(\)\s]*)</string>
 			<key>name</key>
 			<string>entity.cirru</string>
 		</dict>
@@ -91,7 +91,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?!=($\s+))[^\(\)\s\$][^\(\)\s]*</string>
+			<string>(?!=($\s+))[^\(\)\s][^\(\)\s]*</string>
 			<key>name</key>
 			<string>variable.parameter.cirru</string>
 		</dict>
